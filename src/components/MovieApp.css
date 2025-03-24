@@ -1,0 +1,87 @@
+.MovieApp-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.MovieApp p {
+  font-size: 40px;
+  font-weight: bold;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.Movie-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.Movie-search input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #007BFF;
+  border-radius: 8px;
+  outline: none;
+}
+
+.Movie-search button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.Movie-search button:hover {
+  background-color: #0056b3;
+}
+
+.Movie-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.Movie-icons button {
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.Movie-icons button:hover {
+  background-color: #003366;
+}
+
+.movie-card {
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  transition: transform 0.3s ease-in-out;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
